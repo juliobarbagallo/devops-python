@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+  labels:
+    app: flask
+spec:
+  containers:
+    - name: mypod
+      image: juliobar/devops-python:main
